@@ -33,7 +33,7 @@ func main() {
 
 	// Установка размеров долями (10/90), так что таблица будет в нижней половине окна
 	//splitOffset := myWindow.Canvas().Size().Height / 2
-	split.Offset = 100
+	split.Offset = 90
 
 	// Добавление компоновщика к главному окну
 	myWindow.SetContent(split)
